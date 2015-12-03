@@ -5,6 +5,14 @@ import UIKit
 var str = "Hello, playground"
 
 /*
+ https://github.com/crisbh89/HomeWork4/blob/master/HomeWork4/HomeWork4.playground/Contents.swift
+
+ https://github.com/rgalvezd/Velocimetro/blob/master/Velocimetro.playground/Contents.swift
+
+ https://github.com/saragon21/xcode/blob/master/MiniReto2.playground/Contents.swift
+*/
+
+/*
 Declara la enumeración: Velocidades, sus valores serán de tipo Int.  Cuenta con los siguientes elementos:
 - Apagado = 0, representa la velocidad 0.
 - VelocidadBaja = 20, representa una velocidad de 20km por hora.
