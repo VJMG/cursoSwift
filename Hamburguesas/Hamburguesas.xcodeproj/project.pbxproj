@@ -37,7 +37,7 @@
 		E49037441C0CFB8D00C144DC /* HamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49037481C0CFB8D00C144DC /* HamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasUITests.swift; sourceTree = "<group>"; };
 		E490374A1C0CFB8D00C144DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E49037531C0CFBDB00C144DC /* Hamburguesas_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hamburguesas_Playground.playground; sourceTree = "<group>"; };
+		E49037531C0CFBDB00C144DC /* Hamburguesas_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hamburguesas_Playground.playground; sourceTree = SOURCE_ROOT; };
 		E49037541C0CFF2900C144DC /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +62,6 @@
 		E49037271C0CFB8C00C144DC = {
 			isa = PBXGroup;
 			children = (
-				E49037531C0CFBDB00C144DC /* Hamburguesas_Playground.playground */,
 				E49037321C0CFB8C00C144DC /* Hamburguesas */,
 				E49037471C0CFB8D00C144DC /* HamburguesasUITests */,
 				E49037311C0CFB8C00C144DC /* Products */,
@@ -81,6 +80,7 @@
 		E49037321C0CFB8C00C144DC /* Hamburguesas */ = {
 			isa = PBXGroup;
 			children = (
+				E49037531C0CFBDB00C144DC /* Hamburguesas_Playground.playground */,
 				E49037331C0CFB8C00C144DC /* AppDelegate.swift */,
 				E49037351C0CFB8C00C144DC /* ViewController.swift */,
 				E49037371C0CFB8C00C144DC /* Main.storyboard */,
@@ -396,6 +396,7 @@
 				E490374F1C0CFB8D00C144DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E49037501C0CFB8D00C144DC /* Build configuration list for PBXNativeTarget "HamburguesasUITests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				E49037521C0CFB8D00C144DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
